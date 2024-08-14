@@ -46781,7 +46781,7 @@ r=this.a
 q=t.p
 r=A.a([A.ane("Straipsniai, padedantys \u012fveikti da\u017enai sutinkamas problemas",B.yB,new A.avW(r,a),"Pamokos"),A.ane("Sukonspektuota pagrindin\u0117 teorin\u0117 fizikos kurso med\u017eiaga",B.yF,new A.avX(r,a),"S\u0105siuvinys"),A.ane("\u012evair\u016bs \u012frankiai automatizuojantys da\u017enus i\u0161\u0161\u016bkius",B.yC,new A.avY(r,a),"\u012erankiai"),A.ane("Da\u017enai reikalingi dyd\u017eiai, formul\u0117s bei kiti duomenys",B.yG,new A.avZ(r,a),"Para\u0161t\u0117s")],q)
 p=A.eL(a)?1:2
-q=new A.Cd(!1,o,o,o,o,o,o,A.aN0(A.a([new A.BY(B.yD,"Pagrindin\u0117s skiltys",m),new A.pY(r,s,16,0,o),B.ai3,new A.pY(A.a([A.Gk("Paprasti ir interaktyv\u016bs \u012fvairi\u0173 fizikos formuli\u0173 skai\u010diuotuvai",B.av3,new A.aw_(a),"Skai\u010diuotuvai"),A.Gk("Paprasti ir interaktyv\u016bs \u012fvairi\u0173 fizikos vienet\u0173 konvertoriai",B.pe,new A.aw0(a),"Vienet\u0173 konvertoriai"),A.Gk("Paprastos instrukcijos kaip i\u0161sireik\u0161ti formules trikampio b\u016bdu",B.pe,new A.aw1(a),"Formuli\u0173 i\u0161rei\u0161kimas"),A.Gk("Paprastos instrukcijos kaip i\u0161sireik\u0161ti vienetus universaliu b\u016bdu",B.pe,new A.aw2(a),"Vienet\u0173 i\u0161rei\u0161kimas"),A.Gk("Visi SI sistemos vienet\u0173 prie\u0161d\u0117liai ir j\u0173 skaitin\u0117s reik\u0161m\u0117s",B.av0,new A.aw3(a),"SI sistemos prie\u0161d\u0117liai"),A.Gk("\u012evairi\u0173 med\u017eiag\u0173 savyb\u0117s, i\u0161reik\u0161tos skaitin\u0117mis vert\u0117mis",B.auY,new A.aw4(a),"Reik\u0161mi\u0173 s\u0105ra\u0161ai")],q),p,16,0,o),B.aVd,B.b4L],q),B.as,B.aM8,!0),!1)
+q=new A.Cd(!1,o,o,o,o,o,o,A.aN0(A.a([new A.BY(B.yD,"Pagrindin\u0117s skiltys",m),new A.pY(r,s,16,0,o),B.ai3,new A.pY(A.a([A.Gk("Paprasti ir interaktyv\u016bs \u012fvairi\u0173 fizikos formuli\u0173 skai\u010diuotuvai",B.av3,new A.aw_(a),"Skai\u010diuotuvai"),A.Gk("Paprasti ir interaktyv\u016bs \u012fvairi\u0173 fizikos vienet\u0173 konvertoriai",B.pe,new A.aw0(a),"Vienet\u0173 konvertoriai"),A.Gk("Paprastos instrukcijos kaip i\u0161sireik\u0161ti formules trikampio b\u016bdu",B.pe,new A.aw1(a),"Formuli\u0173 i\u0161rei\u0161kimas"),A.Gk("Paprastos instrukcijos kaip i\u0161sireik\u0161ti vienetus universaliu b\u016bdu",B.pe,new A.aw2(a),"Vienet\u0173 i\u0161rei\u0161kimas"),A.Gk("Visi SI sistemos vienet\u0173 prie\u0161d\u0117liai ir j\u0173 skaitin\u0117s reik\u0161m\u0117s",B.av0,new A.aw3(a),"SI sistemos prie\u0161d\u0117liai"),A.Gk("\u012evairi\u0173 med\u017eiag\u0173 savyb\u0117s, i\u0161reik\u0161tos skaitin\u0117mis vert\u0117mis",B.auY,new A.aw4(a),"Reik\u0161mi\u0173 s\u0105ra\u0161ai")],q),p,16,0,o),B.aVd,B.b4U],q),B.as,B.aM8,!0),!1)
 q.b=!1
 return A.ir(n,q,"Pagrindinis","Fizzika",o)},
 $S:658}
@@ -50461,7 +50461,7 @@ A.Iz.prototype={
 a5k(a,b,c){var s,r=null
 if(b==null)return B.aJ
 s=A.aq(b,1,B.bw,r,r,r,r,r,r)
-return new A.dg(B.fK,1,r,b.length>12?B.b4M:s,r)},
+return new A.dg(B.fK,1,r,b.length>12?B.b4L:s,r)},
 F(a){var s=this.d
 if(s instanceof A.p0&&!s.gAw()){s.toString
 s=t.My.a(s).zZ$
@@ -94374,7 +94374,7 @@ A.a2I.prototype={}
 A.wU.prototype={
 F(a){var s=null,r=this.c
 r=r==null?s:"GoException: "+r.a
-return A.Gb(!0,A.ef(A.c7(A.a([B.b4S,B.Kp,A.aq(r==null?"page not found":r,s,s,s,s,s,s,s,s),B.Kp,new A.IH(new A.ad6(a),B.b4R,s)],t.p),B.t,B.c9,B.p),s,s),B.as,!0)}}
+return A.Gb(!0,A.ef(A.c7(A.a([B.b4R,B.Kp,A.aq(r==null?"page not found":r,s,s,s,s,s,s,s,s),B.Kp,new A.IH(new A.ad6(a),B.b4Q,s)],t.p),B.t,B.c9,B.p),s,s),B.as,!0)}}
 A.ad6.prototype={
 $0(){return A.dJ(this.a).dl(0,"/",null)},
 $S:0}
@@ -103165,8 +103165,8 @@ B.xZ=new A.ts(2,"medium")
 B.l1=new A.ts(3,"high")
 B.y9=new A.k3(7,800)
 B.b2V=new A.u(!0,B.m,null,"Montserrat",null,null,1000,B.y9,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.b4P=new A.em("Fizzika",null,B.b2V,null,null,null,null,null,null,null,null,null)
-B.aqh=new A.D5(B.fN,B.A,B.r,B.b4P,null)
+B.b4O=new A.em("Fizzika",null,B.b2V,null,null,null,null,null,null,null,null,null)
+B.aqh=new A.D5(B.fN,B.A,B.r,B.b4O,null)
 B.w=new A.D(0,0)
 B.aqi=new A.Qk(B.w,B.w)
 B.aqj=new A.D7(null)
@@ -103658,18 +103658,18 @@ B.dU=new A.tS(3,"all")
 B.eX=new A.u(!0,null,null,null,null,null,30,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.b4J=new A.em("$U=U_1+U_2+...$",null,B.eX,null,null,null,null,null,null,null,null,null)
 B.awX=new A.i4(B.b4J,null,null)
-B.b4T=new A.em("$I=I_1=I_2=...$",null,B.eX,null,null,null,null,null,null,null,null,null)
-B.awY=new A.i4(B.b4T,null,null)
-B.b4Q=new A.em("$R=\\frac{U}{I}$",null,B.eX,null,null,null,null,null,null,null,null,null)
-B.awZ=new A.i4(B.b4Q,null,null)
-B.b4N=new A.em("$R=R_1+R_2+...$",null,B.eX,null,null,null,null,null,null,null,null,null)
-B.ax_=new A.i4(B.b4N,null,null)
+B.b4S=new A.em("$I=I_1=I_2=...$",null,B.eX,null,null,null,null,null,null,null,null,null)
+B.awY=new A.i4(B.b4S,null,null)
+B.b4P=new A.em("$R=\\frac{U}{I}$",null,B.eX,null,null,null,null,null,null,null,null,null)
+B.awZ=new A.i4(B.b4P,null,null)
+B.b4M=new A.em("$R=R_1+R_2+...$",null,B.eX,null,null,null,null,null,null,null,null,null)
+B.ax_=new A.i4(B.b4M,null,null)
 B.b4V=new A.em("$\\frac{1}{R}=\\frac{1}{R_1}+\\frac{1}{R_2}+...$",null,B.eX,null,null,null,null,null,null,null,null,null)
 B.ax0=new A.i4(B.b4V,null,null)
-B.b4U=new A.em("$I=I_1+I_2+...$",null,B.eX,null,null,null,null,null,null,null,null,null)
-B.ax1=new A.i4(B.b4U,null,null)
-B.b4O=new A.em("$U=U_1=U_2=...$",null,B.eX,null,null,null,null,null,null,null,null,null)
-B.ax2=new A.i4(B.b4O,null,null)
+B.b4T=new A.em("$I=I_1+I_2+...$",null,B.eX,null,null,null,null,null,null,null,null,null)
+B.ax1=new A.i4(B.b4T,null,null)
+B.b4N=new A.em("$U=U_1=U_2=...$",null,B.eX,null,null,null,null,null,null,null,null,null)
+B.ax2=new A.i4(B.b4N,null,null)
 B.yO=new A.xx(0,"platformDefault")
 B.ax3=new A.xx(1,"inAppWebView")
 B.ax4=new A.xx(2,"inAppBrowserView")
@@ -109789,11 +109789,11 @@ B.ZJ=new A.em("Home",null,null,null,null,null,null,null,null,null,null,null)
 B.b1i=new A.u(!0,null,null,"Roboto",null,null,21,B.a_,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.b4I=new A.em("Fizzika",null,B.b1i,null,null,null,null,null,null,null,null,null)
 B.b4K=new A.em("This widget should not appear. It means one of FlutterMath's AST nodes forgot to handle the case for TransparentNodes",null,null,null,null,null,null,null,null,null,null,null)
-B.b4L=new A.em("Cloudflare hosting: Testing path url strategy (with setPathUrlStrategy and _redirects)",null,B.mN,B.S,null,null,null,null,null,null,null,null)
-B.b4M=new A.em("Back",null,null,null,null,null,null,null,null,null,null,null)
+B.b4L=new A.em("Back",null,null,null,null,null,null,null,null,null,null,null)
 B.b_F=new A.u(!0,B.m,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.b4R=new A.em("Go to home page",null,B.b_F,null,null,null,null,null,null,null,null,null)
-B.b4S=new A.em("Page Not Found",null,B.fE,null,null,null,null,null,null,null,null,null)
+B.b4Q=new A.em("Go to home page",null,B.b_F,null,null,null,null,null,null,null,null,null)
+B.b4R=new A.em("Page Not Found",null,B.fE,null,null,null,null,null,null,null,null,null)
+B.b4U=new A.em("Cloudflare hosting: Testing path url strategy (with setPathUrlStrategy, without 404.html and _redirects)",null,B.mN,B.S,null,null,null,null,null,null,null,null)
 B.b4W=new A.HL(0,"system")
 B.ZL=new A.HL(1,"light")
 B.ZM=new A.HL(2,"dark")
