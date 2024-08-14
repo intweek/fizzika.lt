@@ -46781,7 +46781,7 @@ r=this.a
 q=t.p
 r=A.a([A.ane("Straipsniai, padedantys \u012fveikti da\u017enai sutinkamas problemas",B.yB,new A.avW(r,a),"Pamokos"),A.ane("Sukonspektuota pagrindin\u0117 teorin\u0117 fizikos kurso med\u017eiaga",B.yF,new A.avX(r,a),"S\u0105siuvinys"),A.ane("\u012evair\u016bs \u012frankiai automatizuojantys da\u017enus i\u0161\u0161\u016bkius",B.yC,new A.avY(r,a),"\u012erankiai"),A.ane("Da\u017enai reikalingi dyd\u017eiai, formul\u0117s bei kiti duomenys",B.yG,new A.avZ(r,a),"Para\u0161t\u0117s")],q)
 p=A.eL(a)?1:2
-q=new A.Cd(!1,o,o,o,o,o,o,A.aN0(A.a([new A.BY(B.yD,"Pagrindin\u0117s skiltys",m),new A.pY(r,s,16,0,o),B.ai3,new A.pY(A.a([A.Gk("Paprasti ir interaktyv\u016bs \u012fvairi\u0173 fizikos formuli\u0173 skai\u010diuotuvai",B.av3,new A.aw_(a),"Skai\u010diuotuvai"),A.Gk("Paprasti ir interaktyv\u016bs \u012fvairi\u0173 fizikos vienet\u0173 konvertoriai",B.pe,new A.aw0(a),"Vienet\u0173 konvertoriai"),A.Gk("Paprastos instrukcijos kaip i\u0161sireik\u0161ti formules trikampio b\u016bdu",B.pe,new A.aw1(a),"Formuli\u0173 i\u0161rei\u0161kimas"),A.Gk("Paprastos instrukcijos kaip i\u0161sireik\u0161ti vienetus universaliu b\u016bdu",B.pe,new A.aw2(a),"Vienet\u0173 i\u0161rei\u0161kimas"),A.Gk("Visi SI sistemos vienet\u0173 prie\u0161d\u0117liai ir j\u0173 skaitin\u0117s reik\u0161m\u0117s",B.av0,new A.aw3(a),"SI sistemos prie\u0161d\u0117liai"),A.Gk("\u012evairi\u0173 med\u017eiag\u0173 savyb\u0117s, i\u0161reik\u0161tos skaitin\u0117mis vert\u0117mis",B.auY,new A.aw4(a),"Reik\u0161mi\u0173 s\u0105ra\u0161ai")],q),p,16,0,o),B.aVd,B.b4J],q),B.as,B.aM8,!0),!1)
+q=new A.Cd(!1,o,o,o,o,o,o,A.aN0(A.a([new A.BY(B.yD,"Pagrindin\u0117s skiltys",m),new A.pY(r,s,16,0,o),B.ai3,new A.pY(A.a([A.Gk("Paprasti ir interaktyv\u016bs \u012fvairi\u0173 fizikos formuli\u0173 skai\u010diuotuvai",B.av3,new A.aw_(a),"Skai\u010diuotuvai"),A.Gk("Paprasti ir interaktyv\u016bs \u012fvairi\u0173 fizikos vienet\u0173 konvertoriai",B.pe,new A.aw0(a),"Vienet\u0173 konvertoriai"),A.Gk("Paprastos instrukcijos kaip i\u0161sireik\u0161ti formules trikampio b\u016bdu",B.pe,new A.aw1(a),"Formuli\u0173 i\u0161rei\u0161kimas"),A.Gk("Paprastos instrukcijos kaip i\u0161sireik\u0161ti vienetus universaliu b\u016bdu",B.pe,new A.aw2(a),"Vienet\u0173 i\u0161rei\u0161kimas"),A.Gk("Visi SI sistemos vienet\u0173 prie\u0161d\u0117liai ir j\u0173 skaitin\u0117s reik\u0161m\u0117s",B.av0,new A.aw3(a),"SI sistemos prie\u0161d\u0117liai"),A.Gk("\u012evairi\u0173 med\u017eiag\u0173 savyb\u0117s, i\u0161reik\u0161tos skaitin\u0117mis vert\u0117mis",B.auY,new A.aw4(a),"Reik\u0161mi\u0173 s\u0105ra\u0161ai")],q),p,16,0,o),B.aVd,B.b4L],q),B.as,B.aM8,!0),!1)
 q.b=!1
 return A.ir(n,q,"Pagrindinis","Fizzika",o)},
 $S:658}
@@ -91898,7 +91898,7 @@ Gy(){var s={}
 s.a=0
 return A.qg(J.c6(this.ch)+1,new A.ar2(s,this),!1,t.S)},
 ej(a,b){var s=A.X(b).h("e6<1,cb>")
-return new A.cb(B.b4L,a,0,0,A.Q(new A.e6(b,new A.ar1(),s),!1,s.h("o.E")))},
+return new A.cb(B.b4K,a,0,0,A.Q(new A.e6(b,new A.ar1(),s),!1,s.h("o.E")))},
 gjX(){var s,r,q=this,p=q.x
 if(p===$){s=J.a7j(q.ch,new A.ar4(),t.l4)
 r=A.Q(s,!1,s.$ti.h("o.E"))
@@ -103656,8 +103656,8 @@ B.awW=new A.xw(B.iU,2,"capsLock")
 B.hi=new A.tS(0,"any")
 B.dU=new A.tS(3,"all")
 B.eX=new A.u(!0,null,null,null,null,null,30,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.b4K=new A.em("$U=U_1+U_2+...$",null,B.eX,null,null,null,null,null,null,null,null,null)
-B.awX=new A.i4(B.b4K,null,null)
+B.b4J=new A.em("$U=U_1+U_2+...$",null,B.eX,null,null,null,null,null,null,null,null,null)
+B.awX=new A.i4(B.b4J,null,null)
 B.b4T=new A.em("$I=I_1=I_2=...$",null,B.eX,null,null,null,null,null,null,null,null,null)
 B.awY=new A.i4(B.b4T,null,null)
 B.b4Q=new A.em("$R=\\frac{U}{I}$",null,B.eX,null,null,null,null,null,null,null,null,null)
@@ -109788,8 +109788,8 @@ B.b4H=new A.bY("Plintant svyravimui, vienos svyruojan\u010dios terp\u0117s dalel
 B.ZJ=new A.em("Home",null,null,null,null,null,null,null,null,null,null,null)
 B.b1i=new A.u(!0,null,null,"Roboto",null,null,21,B.a_,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.b4I=new A.em("Fizzika",null,B.b1i,null,null,null,null,null,null,null,null,null)
-B.b4J=new A.em("Cloudflare hosting: Testing path url strategy (with setPathUrlStrategy and _rewrites)",null,B.mN,B.S,null,null,null,null,null,null,null,null)
-B.b4L=new A.em("This widget should not appear. It means one of FlutterMath's AST nodes forgot to handle the case for TransparentNodes",null,null,null,null,null,null,null,null,null,null,null)
+B.b4K=new A.em("This widget should not appear. It means one of FlutterMath's AST nodes forgot to handle the case for TransparentNodes",null,null,null,null,null,null,null,null,null,null,null)
+B.b4L=new A.em("Cloudflare hosting: Testing path url strategy (with setPathUrlStrategy and _redirects)",null,B.mN,B.S,null,null,null,null,null,null,null,null)
 B.b4M=new A.em("Back",null,null,null,null,null,null,null,null,null,null,null)
 B.b_F=new A.u(!0,B.m,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.b4R=new A.em("Go to home page",null,B.b_F,null,null,null,null,null,null,null,null,null)
