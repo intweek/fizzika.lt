@@ -5,17 +5,12 @@
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
 
-    <!-- <title>Fizzika – Aiškus fizikos kursas, skaičiuotuvai ir dar daugiau</title>
-    <meta name="description" content="Išlaikykite ar perpraskite fiziką be vargo su fizzika.lt – tiesiai iš mokinio lūpų! Suprantama medžiaga, interaktyvūs skaičiuotuvai bei daug daugiau!">
-    <meta name="author" content="Vykintas Mylimas"> -->
     <meta name="robots" content="all">
 
-    <meta property="og:title" content="Fizzika – Aiškus fizikos kursas, skaičiuotuvai ir dar daugiau"/>
-    <meta property="og:description" content="Išlaikykite ar perpraskite fiziką be vargo su fizzika.lt – tiesiai iš mokinio lūpų!"/>
-    <meta property="og:image" content="og/main_page_og_image.png"/>
-    <meta property="og:type" content="website"/>
-    <!-- <meta property="og:url" content="https://fizzika.lt"/> -->
-
+    <meta property="og:title" content="Fizzika – Aiškus fizikos kursas, skaičiuotuvai ir dar daugiau">
+    <meta property="og:description" content="Išlaikykite ar perpraskite fiziką be vargo su fizzika.lt – tiesiai iš mokinio lūpų!">
+    <meta property="og:image" content="og/main_page_og_image.png">
+    <meta property="og:type" content="website">
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -27,14 +22,14 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="manifest" href="manifest.json">
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 
     <script>
       // The value below is injected by flutter build, do not touch.
-      const serviceWorkerVersion = "95586053";
+      const serviceWorkerVersion = "411902797";
     </script>
     <!-- This script adds the flutter initialization JS code -->
-    <script src="flutter.js"></script>
+    <script src="flutter.js" defer></script>
     <style id="splash-screen-style">
       html {
         height: 100%
@@ -110,21 +105,15 @@
   </head>
   
   <body>
-    <!-- Create a progress bar container with a nested progress bar -->
+    <!-- Create a loading screen that contains the logo and progress bar  -->
     <div class="loading-screen">
-      <!-- <picture id="splash">
-        <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
-        <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
-        <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
-      </picture> -->
-
       <picture id="splash">
         <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
         <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
-        <img aria-hidden="true" src="splash/img/light-1x.png" alt="Fizzika.lt logo">
+        <img aria-hidden="true" src="splash/img/light-1x.png">
       </picture>
       <div class="progress-container" id="progressbar">
-        <div class="progress-bar" id="progress" data-width="80" ></div>
+        <div class="progress-bar" id="progress" data-width="0"></div>
       </div>
     </div>
 
@@ -138,7 +127,7 @@
 					}
 				});
 		</script>
-    <script defer>
+    <script>
       // Get references to the progress bar container and the progress bar element.
       const progress = document.getElementById("progress");
       const progressBar = document.getElementById("progressbar");
