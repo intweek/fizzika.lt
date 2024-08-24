@@ -49359,7 +49359,7 @@ B.b.D(l,p)
 l.push(A.bP(q,q,B.o,B.kB,q,q,q,1,B.apz,q,q,q,1/0))
 p=A.an("Versija:",q,q,q,q,A.aj(q,q,A.w(a).ax.k3,q,q,q,q,q,q,q,q,14,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q)
 s=A.w(a).ax.k3.a
-l.push(new A.aX(B.apN,A.c6(A.a([p,A.an("0.0.1 (00003)",q,q,q,q,A.aj(q,q,A.a7(B.d.an(178.5),s>>>16&255,s>>>8&255,s&255),q,q,q,q,q,q,q,q,14,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q)],m),B.aC,B.C,B.p),q))
+l.push(new A.aX(B.apN,A.c6(A.a([p,A.an("0.0.1 (00004)",q,q,q,q,A.aj(q,q,A.a7(B.d.an(178.5),s>>>16&255,s>>>8&255,s&255),q,q,q,q,q,q,q,q,14,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q)],m),B.aC,B.C,B.p),q))
 return A.bw(new A.QD(n.ax.k2,B.jk,A.aP5(l,B.apF,q,!1),q),q,o.a.a*0.8)}}
 A.a8U.prototype={
 $0(){var s=0,r=A.a3(t.H),q=this,p
