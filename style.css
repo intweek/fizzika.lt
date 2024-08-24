@@ -34,6 +34,7 @@ body {
 }
 
 /* Different widths with specific transition durations */
+.progress-bar[data-width="0"] { transition: width 0.5s ease; }
 .progress-bar[data-width="20"] { transition: width 0.5s ease; }
 .progress-bar[data-width="80"] { transition: width 1s ease; }
 .progress-bar[data-width="100"] { transition: width 0.2s ease; }

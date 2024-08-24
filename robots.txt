@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /atnaujinti
+
+Sitemap: https://fizzika.lt/sitemap.xml
